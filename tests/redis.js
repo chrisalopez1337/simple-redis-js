@@ -1,4 +1,4 @@
-const { Redis, AsyncRedis } = require('../lib/main.js');
+const { Redis } = require('../lib/main.js');
 const { expect } = require('chai');
 const assert = require('assert');
 
