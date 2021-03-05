@@ -4,7 +4,7 @@
   "description": "Simple Redis Cache in JS.",
   "main": "lib/main.js",
   "scripts": {
-    "test": "node lib/main.js"
+    "test": "mocha tests/redis.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "homepage": "https://github.com/chrisalopez1337/simple-redis#readme",
   "dependencies": {
     "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.0"
   }
 }
