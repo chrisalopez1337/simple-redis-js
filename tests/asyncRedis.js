@@ -23,7 +23,7 @@ describe('Async Based Redis Client', async () => {
 
     it('Should be able to set data', async () => {
         const res = await rAsync.set(key, data);
-        expect(res).to.equal(true);
+        expect(res).to.equal('OK');
     });
 
     it('Should be able to retrieve data', async () => {
@@ -33,11 +33,11 @@ describe('Async Based Redis Client', async () => {
 
     it('Should be able to set data with an expiry', async () => {
         const res = await rAsync.setex(setexKey, data, ttl);
-        expect(res).to.equal(true);
+        expect(res).to.equal('OK');
     });
 
     it('Should be able to clear data', async () => {
         const res = await rAsync.flush();
-        expect(res).to.equal(true);
+        expect(res).to.equal('OK');
     })
 });
