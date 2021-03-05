@@ -1,5 +1,5 @@
 {
-  "name": "simple-redis",
+  "name": "simple-redis-js",
   "version": "0.0.1",
   "description": "Simple Redis Cache in JS.",
   "main": "lib/main.js",
