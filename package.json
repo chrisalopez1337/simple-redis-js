@@ -1,0 +1,26 @@
+{
+  "name": "simple-redis",
+  "version": "0.0.1",
+  "description": "Simple Redis Cache in JS.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "node lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisalopez1337/simple-redis.git"
+  },
+  "keywords": [
+    "Redis",
+    "Javascript"
+  ],
+  "author": "Chris Lopez, (chrisalopez1337)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisalopez1337/simple-redis/issues"
+  },
+  "homepage": "https://github.com/chrisalopez1337/simple-redis#readme",
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
